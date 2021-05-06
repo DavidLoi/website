@@ -1,9 +1,9 @@
-import styled from "styled-components"
-import {Link} from 'react-router-dom'
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
   background-color: #101522;
-`
+`;
 
 export const FooterWrap = styled.div`
   padding: 48px 24px;
@@ -13,7 +13,7 @@ export const FooterWrap = styled.div`
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-`
+`;
 
 export const FooterLinksContainer = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ export const FooterLinksContainer = styled.div`
   @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
-`
+`;
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
@@ -30,7 +30,7 @@ export const FooterLinksWrapper = styled.div`
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
-`
+`;
 
 export const FooterLinkItems = styled.div`
   display: flex;
@@ -47,12 +47,12 @@ export const FooterLinkItems = styled.div`
     padding: 10px;
     width: 100%;
   }
-`
+`;
 
 export const FooterLinkTitle = styled.h1`
   font-size: 14px;
   margin-bottom: 16px;
-`
+`;
 
 export const FooterLink = styled(Link)`
   color: #fff;
@@ -64,4 +64,4 @@ export const FooterLink = styled(Link)`
     color: #a801e0;
     transition: 0.3s ease-out;
   }
-`
+`;
