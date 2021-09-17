@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>David Loi</HeroH1>
         <HeroP>
-          I am a student in my 1B term at the University of Waterloo studying
+          I am a student in my 2A term at the University of Waterloo studying
           Computing and Financial Management.
         </HeroP>
         <HeroP>Welcome to my personal website!</HeroP>
